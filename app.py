@@ -4,7 +4,7 @@ import numpy as np
 import requests
 from datetime import datetime
 import json
-from IPython.display import IFrame
+#from IPython.display import IFrame
 
 # Funcion de chat con llama
 
@@ -77,7 +77,7 @@ def main():
     local_css("style/style.css")
     Col1,Col2 = st.columns([3,1])       
     with Col1:
-        dashboard= IFrame(src="", width=1000,height=1000)
+        #dashboard= IFrame(src="", width=1000,height=1000)
         st.title("historic-fire-data")
     with Col2:
         st.title("firm-bot🔥🔥🔥")
