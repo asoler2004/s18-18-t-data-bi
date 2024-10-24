@@ -9,7 +9,7 @@ import json
 # Funcion de chat con llama
 
 def chat_with_llama(messages):    
-    API_KEY ='bb4595ff-bdaf-4dff-a0b6-ff95186f4152'
+    API_KEY =  #insert api key
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f"Bearer {API_KEY}"
